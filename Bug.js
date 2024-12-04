@@ -1,0 +1,1 @@
+This error occurs when you try to access a property of an object before the object is fully loaded or defined.  In React Native, this is common with asynchronous operations like fetching data from an API.  The component might try to render before the data is available, leading to a `TypeError: Cannot read properties of undefined (reading 'property')` error.
